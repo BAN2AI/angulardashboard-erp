@@ -1,0 +1,194 @@
+
+<div class=" content">
+    
+    <div class=" row">
+      <div class=" col-md-8">
+        <div class=" card">
+          <div class=" card-header"><h5 class=" title">Point de Vente
+            <span  class="pull-right">
+                <script>document.write(new Date().toString())</script>
+                <a href="#/dashboard/dashboard" class="btn btn-primary"> <i class="icon-chart-pie-36 tim-icons"></i> Retourner Au Dashboard </a>
+            </span>
+          </h5>
+            
+        </div>
+          <div class=" card-body">
+            <form>
+              <div class=" row">
+                
+                <div class=" col-md-6 px-md-1">
+                  <div class=" form-group">
+                    <label> Enterpot </label>
+                    <input
+                      class=" form-control"
+                      placeholder="Entreprot"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div class=" col-md-6 pl-md-1">
+                  <div class=" form-group">
+                    <label for="exampleInputEmail1"> Facturier </label>
+                    <input
+                      class=" form-control"
+                      placeholder=""
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class=" row">
+                <div class=" col-md-6 pr-md-1">
+                  <div class=" form-group">
+                    <label> Clients<button class="btn btn-sm btn-icon btn-primary"> <i class="tim-icons icon-simple-add"></i></button> </label>
+                    <input
+                      class=" form-control"
+                      placeholder="clients"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div class=" col-md-6 pl-md-1">
+                  <div class=" form-group">
+                    <label> Produit </label>
+                    <input
+                      class=" form-control"
+                      placeholder="Scanner/Rechercher un produit"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class=" row">
+                <div class=" col-md-12">
+                    <table class=" table tablesorter" id="">
+                        <thead class=" text-primary">
+                          <tr>
+                            <th>Produit</th>
+                            <th>Prix</th>
+                            <th>Quantites</th>
+                            <th>Sous total</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          
+                          
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+              
+            </form>
+          </div>
+          <div class=" card-footer">
+            <table class=" table tablesorter" id="">
+                <thead class=" text-primary">
+                  <tr>
+                    <th>Nombre</th>
+                    <th>Total</th>
+                    <th>Reduction <button class="btn btn-sm btn-icon btn-infos"> <i class="tim-icons icon-pencil"></i></button></th>
+                    <th>Tax <button class="btn btn-sm btn-icon btn-infos"> <i class="tim-icons icon-pencil"></i></button></th>
+                    <th>Shipping<button class="btn btn-sm btn-icon btn-infos"> <i class="tim-icons icon-pencil"></i></button></th>
+                    <th>Total</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tbody>
+              </table>
+            <button class=" btn btn-fill btn-danger" type="submit">Carte banquaire</button>
+            <button class=" btn btn-fill btn-info" type="submit">PayPal</button>
+            <button class=" btn btn-fill btn-infos" type="submit">Cash</button>
+            <button class=" btn btn-fill btn-success" type="submit">Check</button>
+            <button class=" btn btn-fill btn-warning" type="submit">Annuler</button>
+          </div>
+        </div>
+      </div>
+      <div class=" col-md-4">
+        <div class=" card">
+          <div class=" card-header">
+            <h4 class=" card-title">Recentes Ventes
+
+                <span  class="pull-right">
+                    <button class="btn btn-primary"> <i class="tim-icons icon-simple-add"></i>Faire Vente </button>
+                            <button class="btn btn-infos"> <i class="tim-icons icon-single-copy-04"></i>Importer Ventes </button>
+                </span>
+            </h4>
+            
+          </div>
+          <div class=" card-body">
+            <div class=" table-responsive">
+              <table class=" table tablesorter" id="">
+                <thead class=" text-primary">
+                  <tr>
+                    <th>Clients</th>
+                    <th>Produit</th>
+                    <th>Quantites</th>
+                    <th>Total</th>
+                    <th>Client</th>
+                    
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td>Congosa</td>
+                    <td>24354</td>
+                    <td>Produits de premieres necessités</td>
+                    <td>123</td>
+                    <td>123</td>
+                    
+                    <td>
+                        <button class="btn btn-sm btn-info"> Imprimer </button>
+                        
+                    </td>
+                  </tr>
+                  <tr>
+                 
+                    <td>Congosa</td>
+                    <td>24354</td>
+                    <td>Produits de premieres necessités</td>
+                    <td>123</td>
+                    <td>123</td>
+                    
+                    <td>
+                        <button class="btn btn-sm btn-info"> Imprimer </button>
+                        
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Congosa</td>
+                    <td>24354</td>
+                    <td>Produits de premieres necessités</td>
+                    <td>123</td>
+                    <td>123</td>
+                    
+                    <td>
+                        <button class="btn btn-sm btn-info"> Imprimer </button>
+                        
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- <div class="card-footer pull-right">
+            <button class="btn btn-sm btn-infos"> Imprimer </button>
+            <button class="btn btn-sm btn-infos"> PDF </button>
+            <button class="btn btn-sm btn-infos"> CSV </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
